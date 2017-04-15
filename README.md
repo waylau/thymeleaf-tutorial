@@ -1,4 +1,4 @@
-# Thymeleaf Tutorial 《Thymeleaf 教程》
+# Thymeleaf Tutorial.《Thymeleaf 教程》
 
 ![](images/thymeleaf-logo.png)
 
