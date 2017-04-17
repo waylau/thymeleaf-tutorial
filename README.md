@@ -2,10 +2,10 @@
 
 ![](images/thymeleaf-logo.png)
 
-Thymeleaf  Tutorial takes you to learn Thymeleaf  step by step with a large number of samples. There is also a GitBook version of the book: <http://www.gitbook.com/book/waylau/thymeleaf-tutorial>.
+Thymeleaf  Tutorial takes you to learn [Thymeleaf](http://www.thymeleaf.org/)  step by step with a large number of samples. There is also a GitBook version of the book: <http://www.gitbook.com/book/waylau/thymeleaf-tutorial>.
 Let's [READ](SUMMARY.md)!
 
-Thymeleaf Tutorial 是一本关于 Thymeleaf 学习的开源书。利用业余时间写了本书，图文并茂，用大量实例带你一步一步走进 Thymeleaf 的世界。如有疏漏欢迎指正，欢迎提问。感谢您的参与！
+Thymeleaf Tutorial 是一本关于 [Thymeleaf](http://www.thymeleaf.org/) 学习的开源书。利用业余时间写了本书，图文并茂，用大量实例带你一步一步走进 Thymeleaf 的世界。如有疏漏欢迎指正，欢迎提问。感谢您的参与！
  
 ### Get Started 如何开始阅读
 
