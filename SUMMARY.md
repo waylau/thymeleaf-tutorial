@@ -4,7 +4,6 @@
 * [Thymeleaf 简介](docs/introduction.md)
 * [Good Thymes Virtual Grocery 示例](docs/the-good-thymes-virtual-grocery.md)
 * [使用文本](docs/using-texts.md)
-* [Thymeleaf 标准方言](docs/overview.md)
 * [Thymeleaf 标准表达式语法](docs/standard-expression-syntax.md)
 * [设置属性值](docs/setting-attribute-values.md)
 * [遍历](docs/iteration.md)
