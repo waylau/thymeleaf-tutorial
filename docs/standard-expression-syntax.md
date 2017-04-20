@@ -1,4 +1,4 @@
-# Thymeleaf 标准表达式语法
+# 标准表达式语法
 
 Thymeleaf 标准表达式（ Standard Expression）语法，是 Thymeleaf 标准方言（Standard Dialect）的最重要组成部分之一。
 
