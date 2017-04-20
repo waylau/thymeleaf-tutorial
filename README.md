@@ -24,7 +24,7 @@ Thymeleaf Tutorial 是一本关于 [Thymeleaf](http://www.thymeleaf.org/) 学习
 
 ### Contact 联系作者:
 
-* Blog: [waylau.com](http://waylau.com)
+* Blog: [waylau.com](https://waylau.com)
 * Gmail: [waylau521(at)gmail.com](mailto:waylau521@gmail.com)
 * Weibo: [waylau521](http://weibo.com/waylau521)
 * Twitter: [waylau521](https://twitter.com/waylau521)
