@@ -8,7 +8,7 @@
 * [迭代器](docs/iteration.md)
 * [条件语句](docs/conditional-evaluation.md)
 * [模版布局](docs/template-layout.md)
-* [本地变量](docs/local-variables.md)
+* [局部变量](docs/local-variables.md)
 * [属性优先级](docs/attribute-precedence.md)
 * [注释、块](docs/comments-and-blocks.md)
 * [内联](docs/inlining.md)
