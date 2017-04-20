@@ -2,11 +2,10 @@
 
 * [Introduction](README.md)
 * [Thymeleaf 简介](docs/introduction.md)
-* [Good Thymes Virtual Grocery 示例](docs/the-good-thymes-virtual-grocery.md)
 * [使用文本](docs/using-texts.md)
 * [Thymeleaf 标准表达式语法](docs/standard-expression-syntax.md)
 * [设置属性值](docs/setting-attribute-values.md)
-* [遍历](docs/iteration.md)
+* [迭代器](docs/iteration.md)
 * [条件语句](docs/conditional-evaluation.md)
 * [模版布局](docs/template-layout.md)
 * [本地变量](docs/local-variables.md)
