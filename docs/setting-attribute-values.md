@@ -447,18 +447,51 @@ HTML具有布尔属性的概念，没有值的属性意味着该值为“true”
 
 
 <div class="table-scroller">
-------------------- ------------------ ------------------
-`th:async`          `th:autofocus`     `th:autoplay`      
-`th:checked`        `th:controls`      `th:declare`       
-`th:default`        `th:defer`         `th:disabled`      
-`th:formnovalidate` `th:hidden`        `th:ismap`         
-`th:loop`           `th:multiple`      `th:novalidate`    
-`th:nowrap`         `th:open`          `th:pubdate`       
-`th:readonly`       `th:required`      `th:reversed`      
-`th:scoped`         `th:seamless`      `th:selected`      
-------------------- ------------------ ------------------
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>th:async</code></td>
+<td style="text-align: left;"><code>th:autofocus</code></td>
+<td style="text-align: left;"><code>th:autoplay</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>th:checked</code></td>
+<td style="text-align: left;"><code>th:controls</code></td>
+<td style="text-align: left;"><code>th:declare</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>th:default</code></td>
+<td style="text-align: left;"><code>th:defer</code></td>
+<td style="text-align: left;"><code>th:disabled</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>th:formnovalidate</code></td>
+<td style="text-align: left;"><code>th:hidden</code></td>
+<td style="text-align: left;"><code>th:ismap</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>th:loop</code></td>
+<td style="text-align: left;"><code>th:multiple</code></td>
+<td style="text-align: left;"><code>th:novalidate</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>th:nowrap</code></td>
+<td style="text-align: left;"><code>th:open</code></td>
+<td style="text-align: left;"><code>th:pubdate</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>th:readonly</code></td>
+<td style="text-align: left;"><code>th:required</code></td>
+<td style="text-align: left;"><code>th:reversed</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>th:scoped</code></td>
+<td style="text-align: left;"><code>th:seamless</code></td>
+<td style="text-align: left;"><code>th:selected</code></td>
+</tr>
+</tbody>
+</table>
 </div>
-
 
 ## 默认属性处理器
 
