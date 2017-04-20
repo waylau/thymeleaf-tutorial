@@ -88,4 +88,11 @@
 </table>
 </div>
 
-[](../images/thymeleaf-order-list.jpg)
+
+这个优先机制意味着如果属性位置被反转，上述迭代片段将给出完全相同的结果（尽管它的可读性稍差）：
+
+```html
+<ul>
+  <li th:text="${item.description}" th:each="item : ${items}">Item description here...</li>
+</ul>
+```
