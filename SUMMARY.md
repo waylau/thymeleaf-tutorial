@@ -7,7 +7,7 @@
 * [设置属性值](docs/setting-attribute-values.md)
 * [迭代器](docs/iteration.md)
 * [条件语句](docs/conditional-evaluation.md)
-* [模版布局](docs/template-layout.md)
+* [模板布局](docs/template-layout.md)
 * [局部变量](docs/local-variables.md)
 * [属性优先级](docs/attribute-precedence.md)
 * [注释及注释块](docs/comments-and-blocks.md)
