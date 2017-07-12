@@ -41,7 +41,7 @@ ${#locale}
 
 ### Web 上下文命名空间用于 request/session 属性等
 
-Thymeleaf 在 web 环境中，有一系列的快捷方式用于访问请求参数、会哈属性等应用属性：
+Thymeleaf 在 web 环境中，有一系列的快捷方式用于访问请求参数、会话属性等应用属性：
 
 > 注意，没有所谓的 *上下文对象（context objects）*，但有  map 添加到上下文作为变量，这样我们就能访问它们而无需`#`。它们类似于 *命名空间（namespaces）*.
 
