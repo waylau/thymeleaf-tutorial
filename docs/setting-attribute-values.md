@@ -495,7 +495,7 @@ HTML具有布尔属性的概念，没有值的属性意味着该值为“true”
 
 ## 默认属性处理器
 
-提供 默认属性处理器（default attribute processor t），当标准方言没有提供的属性时，也可以设置其属性。比如：
+提供 “默认属性处理器（default attribute processor）”，当标准方言没有提供的属性时，也可以设置其属性。比如：
 
 ```html
 <span th:whatever="${user.name}">...</span>
