@@ -1,0 +1,491 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>局部变量 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="attribute-precedence.html" />
+    
+    
+    <link rel="prev" href="template-layout.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    Thymeleaf 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="using-texts.html">
+            
+                <a href="using-texts.html">
+            
+                    
+                    使用文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-expression-syntax.html">
+            
+                <a href="standard-expression-syntax.html">
+            
+                    
+                    标准表达式语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="setting-attribute-values.html">
+            
+                <a href="setting-attribute-values.html">
+            
+                    
+                    设置属性值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="iteration.html">
+            
+                <a href="iteration.html">
+            
+                    
+                    迭代器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="conditional-evaluation.html">
+            
+                <a href="conditional-evaluation.html">
+            
+                    
+                    条件语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="template-layout.html">
+            
+                <a href="template-layout.html">
+            
+                    
+                    模板布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9" data-path="local-variables.html">
+            
+                <a href="local-variables.html">
+            
+                    
+                    局部变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="attribute-precedence.html">
+            
+                <a href="attribute-precedence.html">
+            
+                    
+                    属性优先级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="comments-and-blocks.html">
+            
+                <a href="comments-and-blocks.html">
+            
+                    
+                    注释及注释块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="inlining.html">
+            
+                <a href="inlining.html">
+            
+                    
+                    内联
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="textual-template-modes.html">
+            
+                <a href="textual-template-modes.html">
+            
+                    
+                    文本模板模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="more-on-configuration.html">
+            
+                <a href="more-on-configuration.html">
+            
+                    
+                    更多配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="emplate-cache.html">
+            
+                <a href="emplate-cache.html">
+            
+                    
+                    模板缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="expression-basic-objects.html">
+            
+                <a href="expression-basic-objects.html">
+            
+                    
+                    表达式基本对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="expression-utility-objects.html">
+            
+                <a href="expression-utility-objects.html">
+            
+                    
+                    表达式工具对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="markup-selector-syntax.html">
+            
+                <a href="markup-selector-syntax.html">
+            
+                    
+                    标记选择器语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="references.html">
+            
+                <a href="references.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >局部变量</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5C40;&#x90E8;&#x53D8;&#x91CF;">&#x5C40;&#x90E8;&#x53D8;&#x91CF;</h1>
+<p>&#x5728;&#x8FED;&#x4EE3;&#x5668;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5C40;&#x90E8;&#x53D8;&#x91CF;<code>prod</code>&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">th:each</span>=<span class="hljs-string">&quot;prod : ${prods}&quot;</span>&gt;</span>
+    ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+</code></pre>
+<p>Thymeleaf &#x4E3A;&#x60A8;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x79CD;&#x5728;&#x4E0D;&#x4F7F;&#x7528;&#x8FED;&#x4EE3;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x58F0;&#x660E;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x7684;&#x65B9;&#x6CD5;<code>th&#xFF1A;with</code>&#x5C5E;&#x6027;&#xFF0C;&#x5176;&#x8BED;&#x6CD5;&#x4E0E;&#x5C5E;&#x6027;&#x503C;&#x7C7B;&#x4F3C;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:with</span>=<span class="hljs-string">&quot;firstPer=${persons[0]}&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+    The name of the first person is <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${firstPer.name}&quot;</span>&gt;</span>Julius Caesar<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>.
+  <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>&#x5F53;<code>th&#xFF1A;with</code>&#x88AB;&#x5904;&#x7406;&#x65F6;&#xFF0C;<code>firstPer</code>&#x53D8;&#x91CF;&#x521B;&#x5EFA;&#x4E3A;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#xFF0C;&#x5E76;&#x6DFB;&#x52A0;&#x5230;&#x6765;&#x81EA;&#x4E0A;&#x4E0B;&#x6587;&#x7684;&#x53D8;&#x91CF; map &#x4E2D;&#xFF0C;&#x4EE5;&#x4FBF;&#x5B83;&#x662F;&#x53EF;&#x7528;&#x4E8E;&#x8BC4;&#x4F30;&#x4EE5;&#x53CA;&#x5728;&#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#x58F0;&#x660E;&#x7684;&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x53D8;&#x91CF;&#xFF0C;&#x4F46;&#x53EA;&#x80FD;&#x5728;&#x5305;&#x542B;<code>&lt;div&gt;</code>&#x6807;&#x7B7E;&#x7684;&#x8303;&#x56F4;&#x5185;&#x3002;</p>
+<p>&#x53EF;&#x4EE5;&#x540C;&#x65F6;&#x5B9A;&#x4E49;&#x591A;&#x4E2A;&#x53D8;&#x91CF;&#xFF0C;&#x8D4B;&#x503C;&#x8BED;&#x6CD5;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:with</span>=<span class="hljs-string">&quot;firstPer=${persons[0]},secondPer=${persons[1]}&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+    The name of the first person is <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${firstPer.name}&quot;</span>&gt;</span>Julius Caesar<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>.
+  <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+    But the name of the second person is 
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${secondPer.name}&quot;</span>&gt;</span>Marcus Antonius<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>.
+  <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p><code>th&#xFF1A;with</code>&#x5C5E;&#x6027;&#x5141;&#x8BB8;&#x91CD;&#x7528;&#x5728;&#x540C;&#x4E00;&#x5C5E;&#x6027;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x53D8;&#x91CF;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:with</span>=<span class="hljs-string">&quot;company=${user.company + &apos; Co.&apos;},account=${accounts[company]}&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="template-layout.html" class="navigation navigation-prev " aria-label="Previous page: 模板布局">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="attribute-precedence.html" class="navigation navigation-next " aria-label="Next page: 属性优先级">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"局部变量","level":"1.9","depth":1,"next":{"title":"属性优先级","level":"1.10","depth":1,"path":"docs/attribute-precedence.md","ref":"docs/attribute-precedence.md","articles":[]},"previous":{"title":"模板布局","level":"1.8","depth":1,"path":"docs/template-layout.md","ref":"docs/template-layout.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/local-variables.md","mtime":"2020-07-11T07:36:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-11T07:40:38.345Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

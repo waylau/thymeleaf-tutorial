@@ -1,0 +1,569 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>迭代器 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="conditional-evaluation.html" />
+    
+    
+    <link rel="prev" href="setting-attribute-values.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    Thymeleaf 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="using-texts.html">
+            
+                <a href="using-texts.html">
+            
+                    
+                    使用文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-expression-syntax.html">
+            
+                <a href="standard-expression-syntax.html">
+            
+                    
+                    标准表达式语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="setting-attribute-values.html">
+            
+                <a href="setting-attribute-values.html">
+            
+                    
+                    设置属性值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="iteration.html">
+            
+                <a href="iteration.html">
+            
+                    
+                    迭代器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="conditional-evaluation.html">
+            
+                <a href="conditional-evaluation.html">
+            
+                    
+                    条件语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="template-layout.html">
+            
+                <a href="template-layout.html">
+            
+                    
+                    模板布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="local-variables.html">
+            
+                <a href="local-variables.html">
+            
+                    
+                    局部变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="attribute-precedence.html">
+            
+                <a href="attribute-precedence.html">
+            
+                    
+                    属性优先级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="comments-and-blocks.html">
+            
+                <a href="comments-and-blocks.html">
+            
+                    
+                    注释及注释块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="inlining.html">
+            
+                <a href="inlining.html">
+            
+                    
+                    内联
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="textual-template-modes.html">
+            
+                <a href="textual-template-modes.html">
+            
+                    
+                    文本模板模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="more-on-configuration.html">
+            
+                <a href="more-on-configuration.html">
+            
+                    
+                    更多配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="emplate-cache.html">
+            
+                <a href="emplate-cache.html">
+            
+                    
+                    模板缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="expression-basic-objects.html">
+            
+                <a href="expression-basic-objects.html">
+            
+                    
+                    表达式基本对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="expression-utility-objects.html">
+            
+                <a href="expression-utility-objects.html">
+            
+                    
+                    表达式工具对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="markup-selector-syntax.html">
+            
+                <a href="markup-selector-syntax.html">
+            
+                    
+                    标记选择器语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="references.html">
+            
+                <a href="references.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >迭代器</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8FED;&#x4EE3;&#x5668;">&#x8FED;&#x4EE3;&#x5668;</h1>
+<h2 id="&#x57FA;&#x672C;&#x7684;&#x8FED;&#x4EE3;">&#x57FA;&#x672C;&#x7684;&#x8FED;&#x4EE3;</h2>
+<p><code>th:each</code>&#x5C06;&#x5FAA;&#x73AF; array &#x6216; list &#x4E2D;&#x7684;&#x5143;&#x7D20;&#x5E76;&#x91CD;&#x590D;&#x6253;&#x5370;&#x4E00;&#x7EC4;&#x6807;&#x7B7E;&#xFF0C;&#x8BED;&#x6CD5;&#x76F8;&#x5F53;&#x4E8E; Java foreach &#x8868;&#x8FBE;&#x5F0F;&#xFF1A;</p>
+<pre><code>&lt;li th:each=&quot;book : ${books}&quot; th:text=&quot;${book.title}&quot;&gt;En las Orillas del Sar&lt;/li&gt;
+</code></pre><p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>th&#xFF1A;each</code>&#x5C5E;&#x6027;&#x8FDB;&#x884C;&#x904D;&#x5386;&#x7684;&#x5BF9;&#x8C61;&#x5305;&#x62EC;&#xFF1A;</p>
+<ul>
+<li>&#x4EFB;&#x4F55;&#x5B9E;&#x73B0;<code>java.util.Iterable</code>&#x7684;&#x5BF9;&#x8C61;</li>
+<li>&#x4EFB;&#x4F55;&#x5B9E;&#x73B0;<code>java.util.Enumeration</code>&#x7684;&#x5BF9;&#x8C61;</li>
+<li>&#x4EFB;&#x4F55;&#x5B9E;&#x73B0;<code>java.util.Iterator</code>&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5176;&#x503C;&#x5C06;&#x88AB;&#x8FED;&#x4EE3;&#x5668;&#x8FD4;&#x56DE;&#xFF0C;&#x800C;&#x4E0D;&#x9700;&#x8981;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x7F13;&#x5B58;&#x6240;&#x6709;&#x7684;&#x503C;</li>
+<li>&#x4EFB;&#x4F55;&#x5B9E;&#x73B0;<code>java.util.Map</code>&#x7684;&#x5BF9;&#x8C61;&#x3002; &#x8FED;&#x4EE3;&#x6620;&#x5C04;&#x65F6;&#xFF0C;&#x8FED;&#x4EE3;&#x53D8;&#x91CF; &#x5C06;&#x662F;<code>java.util.Map.Entry</code>&#x7C7B;</li>
+<li>&#x4EFB;&#x4F55;&#x6570;&#x7EC4;</li>
+<li>&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x5BF9;&#x8C61;&#x5C06;&#x88AB;&#x89C6;&#x4E3A;&#x5305;&#x542B;&#x5BF9;&#x8C61;&#x672C;&#x8EAB;&#x7684;&#x5355;&#x503C;&#x5217;&#x8868;</li>
+</ul>
+<h2 id="&#x72B6;&#x6001;&#x53D8;&#x91CF;">&#x72B6;&#x6001;&#x53D8;&#x91CF;</h2>
+<p>Thymeleaf &#x63D0;&#x4F9B; <em>&#x72B6;&#x6001;&#x53D8;&#x91CF;&#xFF08;status variable&#xFF09;</em> &#x6765;&#x8DDF;&#x8E2A;&#x8FED;&#x4EE3;&#x5668;&#x7684;&#x72B6;&#x6001;&#x3002;</p>
+<p><code>th:each</code>&#x5C5E;&#x6027;&#x4E2D;&#xFF0C;&#x5B9A;&#x4E49;&#x4E86;&#x5982;&#x4E0B;&#x72B6;&#x6001;&#x53D8;&#x91CF;&#xFF1A;</p>
+<ul>
+<li><code>index</code> &#x5C5E;&#x6027;&#x662F;&#x5F53;&#x524D; <em>&#x8FED;&#x4EE3;&#x5668;&#x7D22;&#x5F15;&#xFF08;iteration index&#xFF09;</em>&#xFF0C;&#x4ECE;0&#x5F00;&#x59CB;</li>
+<li><code>count</code> &#x5C5E;&#x6027;&#x662F;&#x5F53;&#x524D; <em>&#x8FED;&#x4EE3;&#x5668;&#x7D22;&#x5F15;&#xFF08;iteration index&#xFF09;</em>&#xFF0C;&#x4ECE;1&#x5F00;&#x59CB;</li>
+<li><code>size</code> &#x5C5E;&#x6027;&#x662F;&#x8FED;&#x4EE3;&#x5668;&#x5143;&#x7D20;&#x7684;&#x603B;&#x6570;</li>
+<li><code>current</code> &#x662F;&#x5F53;&#x524D; <em>&#x8FED;&#x4EE3;&#x53D8;&#x91CF;&#xFF08;iter variable&#xFF09;</em></li>
+<li><code>even/odd</code> &#x5224;&#x65AD;&#x5F53;&#x524D;&#x8FED;&#x4EE3;&#x5668;&#x662F;&#x5426;&#x662F; even &#x6216; odd</li>
+<li><code>first</code> &#x5224;&#x65AD;&#x5F53;&#x524D;&#x8FED;&#x4EE3;&#x5668;&#x662F;&#x5426;&#x662F;&#x7B2C;&#x4E00;&#x4E2A;</li>
+<li><code>last</code> &#x5224;&#x65AD;&#x5F53;&#x524D;&#x8FED;&#x4EE3;&#x5668;&#x662F;&#x5426;&#x662F;&#x6700;&#x540E;</li>
+</ul>
+<p>&#x770B;&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>NAME<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>PRICE<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>IN STOCK<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">th:each</span>=<span class="hljs-string">&quot;prod,iterStat : ${prods}&quot;</span> <span class="hljs-attr">th:class</span>=<span class="hljs-string">&quot;${iterStat.odd}? &apos;odd&apos;&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${prod.name}&quot;</span>&gt;</span>Onions<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${prod.price}&quot;</span>&gt;</span>2.41<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${prod.inStock}? #{true} : #{false}&quot;</span>&gt;</span>yes<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
+<p>&#x72B6;&#x6001;&#x53D8;&#x91CF;&#xFF08;&#x5728;&#x672C;&#x793A;&#x4F8B;&#x4E2D;&#x4E3A;&#x201C;iterStat&#x201D;&#xFF09;&#x5728;<code>th&#xFF1A;each</code>&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;&#x3002; </p>
+<p>&#x6211;&#x4EEC;&#x6765;&#x770B;&#x770B;&#x6A21;&#x677F;&#x7684;&#x5904;&#x7406;&#x540E;&#x7684;&#x7ED3;&#x679C;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Good Thymes Virtual Grocery<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;text/html; charset=UTF-8&quot;</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;Content-Type&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/css&quot;</span> <span class="hljs-attr">media</span>=<span class="hljs-string">&quot;all&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/gtvg/css/gtvg.css&quot;</span> /&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Product list<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>NAME<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>PRICE<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>IN STOCK<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;odd&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Fresh Sweet Basil<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>4.99<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>yes<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Italian Tomato<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>1.25<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>no<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;odd&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Yellow Bell Pepper<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>2.50<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>yes<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>Old Cheddar<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>18.75<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>yes<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/gtvg/&quot;</span> <span class="hljs-attr">shape</span>=<span class="hljs-string">&quot;rect&quot;</span>&gt;</span>Return to home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x6211;&#x4EEC;&#x7684;&#x8FED;&#x4EE3;&#x72B6;&#x6001;&#x53D8;&#x91CF;&#x5DF2;&#x7ECF;&#x8FD0;&#x884C;&#x826F;&#x597D;&#xFF0C;&#x5EFA;&#x7ACB;&#x53EA;&#x6709;&#x5947;&#x6570;&#x884C;&#x5177;&#x6709; &#x201C;odd&#x201D; CSS &#x7C7B;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x60A8;&#x6CA1;&#x6709;&#x660E;&#x786E;&#x8BBE;&#x7F6E;&#x72B6;&#x6001;&#x53D8;&#x91CF;&#xFF0C;&#x5219; Thymeleaf &#x5C06;&#x59CB;&#x7EC8;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x72B6;&#x6001;&#x53D8;&#x91CF;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x540E;&#x7F00;&#x201C;Stat&#x201D;&#x83B7;&#x53D6;&#x5230;&#x8FED;&#x4EE3;&#x53D8;&#x91CF;&#x7684;&#x540D;&#x79F0;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>NAME<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>PRICE<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>IN STOCK<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">th:each</span>=<span class="hljs-string">&quot;prod : ${prods}&quot;</span> <span class="hljs-attr">th:class</span>=<span class="hljs-string">&quot;${prodStat.odd}? &apos;odd&apos;&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${prod.name}&quot;</span>&gt;</span>Onions<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${prod.price}&quot;</span>&gt;</span>2.41<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${prod.inStock}? #{true} : #{false}&quot;</span>&gt;</span>yes<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="setting-attribute-values.html" class="navigation navigation-prev " aria-label="Previous page: 设置属性值">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="conditional-evaluation.html" class="navigation navigation-next " aria-label="Next page: 条件语句">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"迭代器","level":"1.6","depth":1,"next":{"title":"条件语句","level":"1.7","depth":1,"path":"docs/conditional-evaluation.md","ref":"docs/conditional-evaluation.md","articles":[]},"previous":{"title":"设置属性值","level":"1.5","depth":1,"path":"docs/setting-attribute-values.md","ref":"docs/setting-attribute-values.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/iteration.md","mtime":"2020-07-11T07:36:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-11T07:40:38.345Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

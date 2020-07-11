@@ -1,0 +1,546 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>注释及注释块 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="inlining.html" />
+    
+    
+    <link rel="prev" href="attribute-precedence.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    Thymeleaf 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="using-texts.html">
+            
+                <a href="using-texts.html">
+            
+                    
+                    使用文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-expression-syntax.html">
+            
+                <a href="standard-expression-syntax.html">
+            
+                    
+                    标准表达式语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="setting-attribute-values.html">
+            
+                <a href="setting-attribute-values.html">
+            
+                    
+                    设置属性值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="iteration.html">
+            
+                <a href="iteration.html">
+            
+                    
+                    迭代器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="conditional-evaluation.html">
+            
+                <a href="conditional-evaluation.html">
+            
+                    
+                    条件语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="template-layout.html">
+            
+                <a href="template-layout.html">
+            
+                    
+                    模板布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="local-variables.html">
+            
+                <a href="local-variables.html">
+            
+                    
+                    局部变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="attribute-precedence.html">
+            
+                <a href="attribute-precedence.html">
+            
+                    
+                    属性优先级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.11" data-path="comments-and-blocks.html">
+            
+                <a href="comments-and-blocks.html">
+            
+                    
+                    注释及注释块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="inlining.html">
+            
+                <a href="inlining.html">
+            
+                    
+                    内联
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="textual-template-modes.html">
+            
+                <a href="textual-template-modes.html">
+            
+                    
+                    文本模板模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="more-on-configuration.html">
+            
+                <a href="more-on-configuration.html">
+            
+                    
+                    更多配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="emplate-cache.html">
+            
+                <a href="emplate-cache.html">
+            
+                    
+                    模板缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="expression-basic-objects.html">
+            
+                <a href="expression-basic-objects.html">
+            
+                    
+                    表达式基本对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="expression-utility-objects.html">
+            
+                <a href="expression-utility-objects.html">
+            
+                    
+                    表达式工具对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="markup-selector-syntax.html">
+            
+                <a href="markup-selector-syntax.html">
+            
+                    
+                    标记选择器语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="references.html">
+            
+                <a href="references.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >注释及注释块</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6CE8;&#x91CA;&#x53CA;&#x6CE8;&#x91CA;&#x5757;">&#x6CE8;&#x91CA;&#x53CA;&#x6CE8;&#x91CA;&#x5757;</h1>
+<h2 id="&#x6807;&#x51C6;-htmlxml-&#x6CE8;&#x91CA;">&#x6807;&#x51C6; HTML/XML &#x6CE8;&#x91CA;</h2>
+<p>&#x6807;&#x51C6; HTML/XML &#x6CE8;&#x91CA;<code>&lt;!-- ... --&gt;</code> &#x53EF;&#x4EE5;&#x5728;&#x6A21;&#x7248;&#x4E2D;&#x4F7F;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- User info follows --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${...}&quot;</span>&gt;</span>
+  ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h2 id="thymeleaf-&#x89E3;&#x6790;&#x5668;&#x7EA7;&#x6CE8;&#x91CA;&#x5757;">Thymeleaf &#x89E3;&#x6790;&#x5668;&#x7EA7;&#x6CE8;&#x91CA;&#x5757;</h2>
+<p>&#x89E3;&#x6790;&#x5668;&#x7EA7;&#x6CE8;&#x91CA;&#x5757;&#x662F;&#x5F53; Thymeleaf &#x89E3;&#x6790;&#x5B83;&#x7684;&#x6A21;&#x677F;&#x65F6;&#xFF0C;&#x8FD9;&#x4E9B;&#x4EE3;&#x7801;&#x5C06;&#x88AB;&#x7B80;&#x5355;&#x5730;&#x4ECE;&#x4E2D;&#x5220;&#x9664;&#x3002; &#x4ED6;&#x4EEC;&#x770B;&#x8D77;&#x6765;&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!--/* This code will be removed at Thymeleaf parsing time! */--&gt;</span>
+</code></pre>
+<p>Thymeleaf&#x5C06;&#x5220;&#x9664;<code>&lt;!--/*</code> &#x548C; <code>*/--&gt;</code>&#x4E4B;&#x95F4;&#x7684;&#x6240;&#x6709;&#x5185;&#x5BB9;&#xFF0C;&#x6240;&#x4EE5;&#x8FD9;&#x4E9B;&#x6CE8;&#x91CA;&#x5757;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x5728;&#x6A21;&#x677F;&#x9759;&#x6001;&#x6253;&#x5F00;&#x65F6;&#x663E;&#x793A;&#x4EE3;&#x7801;&#xFF0C;&#x5F53;Thymeleaf&#x5904;&#x7406;&#x5B83;&#x4F1A;&#x88AB;&#x5220;&#x9664;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!--/*--&gt;</span> 
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+     you can see me only before Thymeleaf processes me!
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-comment">&lt;!--*/--&gt;</span>
+</code></pre>
+<p>&#x8FD9;&#x5728;&#x539F;&#x578B;&#x4E2D;&#x8BBE;&#x8BA1;&#x4E2D;&#x6709;&#x5F88;&#x591A; <code>&lt;tr&gt;</code>&#x65F6;&#xFF0C;&#x975E;&#x5E38;&#x9002;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">th:each</span>=<span class="hljs-string">&quot;x : ${xs}&quot;</span>&gt;</span>
+     ...
+   <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+   <span class="hljs-comment">&lt;!--/*--&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+     ...
+   <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+     ...
+   <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+   <span class="hljs-comment">&lt;!--*/--&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
+<h2 id="&#x539F;&#x578B;&#x6CE8;&#x91CA;&#x5757;">&#x539F;&#x578B;&#x6CE8;&#x91CA;&#x5757;</h2>
+<p>&#x539F;&#x578B;&#x6CE8;&#x91CA;&#x5757;&#x662F;&#x6307;&#xFF0C;&#x5F53;&#x6A21;&#x7248;&#x9759;&#x6001;&#x6253;&#x5F00;&#x65F6;&#xFF08;&#x6BD4;&#x5982;&#x539F;&#x578B;&#x8BBE;&#x8BA1;&#xFF09;&#xFF0C;&#x539F;&#x578B;&#x6CE8;&#x91CA;&#x5757;&#x6240;&#x6CE8;&#x91CA;&#x7684;&#x4EE3;&#x7801;&#x5C06;&#x88AB;&#x6CE8;&#x91CA;&#xFF0C;&#x800C;&#x5728;&#x6A21;&#x7248;&#x6267;&#x884C;&#x65F6;&#xFF0C;&#x8FD9;&#x4E9B;&#x6CE8;&#x91CA;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5C31;&#x80FD;&#x88AB;&#x663E;&#x793A;&#x51FA;&#x6765;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>hello!<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-comment">&lt;!--/*/
+  &lt;div th:text=&quot;${...}&quot;&gt;
+    ...
+  &lt;/div&gt;
+/*/--&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>goodbye!<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+</code></pre>
+<p>Thymeleaf &#x7684;&#x89E3;&#x6790;&#x7CFB;&#x7EDF;&#x5C06;&#x7B80;&#x5355;&#x5730;&#x5220;&#x9664;<code>&lt;!--/*/</code> &#x548C; <code>/*/--&gt;</code> &#x6807;&#x8BB0;&#xFF0C;&#x4F46;&#x4FDD;&#x7559;&#x6240;&#x6CE8;&#x91CA;&#x7684;&#x5185;&#x5BB9;&#x3002; &#x90A3;&#x4E48;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x6267;&#x884C;&#x6A21;&#x677F;&#xFF0C;Thymeleaf &#x5B9E;&#x9645;&#x4E0A;&#x4F1A;&#x770B;&#x5230;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>hello!<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${...}&quot;</span>&gt;</span>
+    ...
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>goodbye!<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+</code></pre>
+<p>&#x4E0E;&#x89E3;&#x6790;&#x5668;&#x7EA7;&#x6CE8;&#x91CA;&#x5757;&#x4E00;&#x6837;&#xFF0C;&#x6B64;&#x529F;&#x80FD;&#x4E0E;&#x65B9;&#x8A00;&#x65E0;&#x5173;&#x3002;</p>
+<h2 id="&#x5408;&#x6210;thblock&#x6807;&#x7B7E;">&#x5408;&#x6210;<code>th:block</code>&#x6807;&#x7B7E;</h2>
+<p>&#x6807;&#x51C6;&#x65B9;&#x8A00;&#x4E2D;&#x5305;&#x542B;&#x7684;&#x552F;&#x4E00;&#x7684;&#x5143;&#x7D20;&#x5904;&#x7406;&#x5668;&#xFF08;&#x4E0D;&#x662F;&#x5C5E;&#x6027;&#xFF09;&#x662F;<code>th:block</code>&#x3002;</p>
+<p><code>th&#xFF1A;block</code>&#x53EA;&#x662F;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x5BB9;&#x5668;&#xFF0C;&#x5141;&#x8BB8;&#x6A21;&#x677F;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x6307;&#x5B9A;&#x4ED6;&#x4EEC;&#x60F3;&#x8981;&#x7684;&#x4EFB;&#x4F55;&#x5C5E;&#x6027;&#x3002; Thymeleaf &#x5C06;&#x6267;&#x884C;&#x8FD9;&#x4E9B;&#x5C5E;&#x6027;&#xFF0C;&#x7136;&#x540E;&#x7B80;&#x5355;&#x5730;&#x5236;&#x4F5C;&#x5757;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x8BA9;&#x5176;&#x5185;&#x5BB9;&#x6D88;&#x5931;&#x3002;</p>
+<p>&#x56E0;&#x6B64;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x5F53;&#x4E3A;&#x6BCF;&#x4E2A;&#x5143;&#x7D20;&#x521B;&#x5EFA;&#x9700;&#x8981;&#x591A;&#x4E2A;<code>&lt;tr&gt;</code> &#x7684;&#x8FED;&#x4EE3;&#x65F6;&#xFF0C;&#x8FD9;&#x53EF;&#x80FD;&#x662F;&#x6709;&#x7528;&#x7684;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">th:block</span> <span class="hljs-attr">th:each</span>=<span class="hljs-string">&quot;user : ${users}&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${user.login}&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${user.name}&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">colspan</span>=<span class="hljs-string">&quot;2&quot;</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${user.address}&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">th:block</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
+<p>&#x5F53;&#x4E0E;&#x539F;&#x578B;&#x6CE8;&#x91CA;&#x5757;&#x7EC4;&#x5408;&#x4F7F;&#x7528;&#x65F6;&#x5C24;&#x5176;&#x6709;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-comment">&lt;!--/*/ &lt;th:block th:each=&quot;user : ${users}&quot;&gt; /*/--&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${user.login}&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${user.name}&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">colspan</span>=<span class="hljs-string">&quot;2&quot;</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${user.address}&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-comment">&lt;!--/*/ &lt;/th:block&gt; /*/--&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="attribute-precedence.html" class="navigation navigation-prev " aria-label="Previous page: 属性优先级">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="inlining.html" class="navigation navigation-next " aria-label="Next page: 内联">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"注释及注释块","level":"1.11","depth":1,"next":{"title":"内联","level":"1.12","depth":1,"path":"docs/inlining.md","ref":"docs/inlining.md","articles":[]},"previous":{"title":"属性优先级","level":"1.10","depth":1,"path":"docs/attribute-precedence.md","ref":"docs/attribute-precedence.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/comments-and-blocks.md","mtime":"2020-07-11T07:36:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-11T07:40:38.345Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,553 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>属性优先级 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="comments-and-blocks.html" />
+    
+    
+    <link rel="prev" href="local-variables.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    Thymeleaf 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="using-texts.html">
+            
+                <a href="using-texts.html">
+            
+                    
+                    使用文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-expression-syntax.html">
+            
+                <a href="standard-expression-syntax.html">
+            
+                    
+                    标准表达式语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="setting-attribute-values.html">
+            
+                <a href="setting-attribute-values.html">
+            
+                    
+                    设置属性值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="iteration.html">
+            
+                <a href="iteration.html">
+            
+                    
+                    迭代器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="conditional-evaluation.html">
+            
+                <a href="conditional-evaluation.html">
+            
+                    
+                    条件语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="template-layout.html">
+            
+                <a href="template-layout.html">
+            
+                    
+                    模板布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="local-variables.html">
+            
+                <a href="local-variables.html">
+            
+                    
+                    局部变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10" data-path="attribute-precedence.html">
+            
+                <a href="attribute-precedence.html">
+            
+                    
+                    属性优先级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="comments-and-blocks.html">
+            
+                <a href="comments-and-blocks.html">
+            
+                    
+                    注释及注释块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="inlining.html">
+            
+                <a href="inlining.html">
+            
+                    
+                    内联
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="textual-template-modes.html">
+            
+                <a href="textual-template-modes.html">
+            
+                    
+                    文本模板模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="more-on-configuration.html">
+            
+                <a href="more-on-configuration.html">
+            
+                    
+                    更多配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="emplate-cache.html">
+            
+                <a href="emplate-cache.html">
+            
+                    
+                    模板缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="expression-basic-objects.html">
+            
+                <a href="expression-basic-objects.html">
+            
+                    
+                    表达式基本对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="expression-utility-objects.html">
+            
+                <a href="expression-utility-objects.html">
+            
+                    
+                    表达式工具对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="markup-selector-syntax.html">
+            
+                <a href="markup-selector-syntax.html">
+            
+                    
+                    标记选择器语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="references.html">
+            
+                <a href="references.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >属性优先级</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5C5E;&#x6027;&#x4F18;&#x5148;&#x7EA7;">&#x5C5E;&#x6027;&#x4F18;&#x5148;&#x7EA7;</h1>
+<p>&#x5F53;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x6807;&#x7B7E;&#x4E2D;&#x5199;&#x5165;&#x591A;&#x4E2A;<code>th:*</code>&#x5C5E;&#x6027;&#x65F6;&#xFF0C;&#x4F1A;&#x53D1;&#x751F;&#x4EC0;&#x4E48;&#xFF1F; &#x5BF9;&#x4E8E;&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">th:each</span>=<span class="hljs-string">&quot;item : ${items}&quot;</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${item.description}&quot;</span>&gt;</span>Item description here...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x671F;&#x671B;<code>th:each</code>&#x5C5E;&#x6027;&#x5728;<code>th:text</code>&#x4E4B;&#x524D;&#x6267;&#x884C;&#xFF0C;&#x4ECE;&#x800C;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x4E86;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x4F46;&#x662F;&#x9274;&#x4E8E; HTML/XML&#x6807;&#x51C6;&#x5E76;&#x672A;&#x5BF9;&#x6807;&#x7B7E;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x7684;&#x987A;&#x5E8F;&#x7ED9;&#x51FA;&#x4EFB;&#x4F55;&#x7684;&#x5B9A;&#x4E49;&#xFF0C;&#x6240;&#x4EE5;&#x5FC5;&#x987B;&#x5728;&#x5C5E;&#x6027;&#x4E2D;&#x5EFA;&#x7ACB;<em>&#x4F18;&#x5148;&#x7EA7;&#xFF08;precedence&#xFF09;</em>&#x673A;&#x5236;
+&#x4EE5;&#x786E;&#x4FDD;&#x8FD9;&#x5C06;&#x6309;&#x9884;&#x671F;&#x5DE5;&#x4F5C;&#x3002;</p>
+<p>&#x6240;&#x4EE5;&#xFF0C;&#x6240;&#x6709;&#x7684;Thymeleaf&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6570;&#x5B57;&#x4F18;&#x5148;&#x7EA7;&#xFF0C;&#x5B83;&#x5EFA;&#x7ACB;&#x4E86;&#x5B83;&#x4EEC;&#x5728;&#x6807;&#x7B7E;&#x4E2D;&#x6267;&#x884C;&#x7684;&#x987A;&#x5E8F;&#x3002; &#x8FD9;&#x4E2A;&#x662F;&#x5217;&#x8868;&#xFF1A;</p>
+<div class="table-scroller">
+<table style="width:90%;">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 48%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Order</th>
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Attributes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Fragment inclusion</td>
+<td style="text-align: left;"><code>th:insert</code><br>
+<code>th:replace</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Fragment iteration</td>
+<td style="text-align: left;"><code>th:each</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Conditional evaluation</td>
+<td style="text-align: left;"><code>th:if</code><br>
+<code>th:unless</code><br>
+<code>th:switch</code><br>
+<code>th:case</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Local variable definition</td>
+<td style="text-align: left;"><code>th:object</code><br>
+<code>th:with</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">General attribute modification</td>
+<td style="text-align: left;"><code>th:attr</code><br>
+<code>th:attrprepend</code><br>
+<code>th:attrappend</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Specific attribute modification</td>
+<td style="text-align: left;"><code>th:value</code><br>
+<code>th:href</code><br>
+<code>th:src</code><br>
+<code>...</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Text (tag body modification)</td>
+<td style="text-align: left;"><code>th:text</code><br>
+<code>th:utext</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Fragment specification</td>
+<td style="text-align: left;"><code>th:fragment</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Fragment removal</td>
+<td style="text-align: left;"><code>th:remove</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<p>&#x8FD9;&#x4E2A;&#x4F18;&#x5148;&#x673A;&#x5236;&#x610F;&#x5473;&#x7740;&#x5982;&#x679C;&#x5C5E;&#x6027;&#x4F4D;&#x7F6E;&#x88AB;&#x53CD;&#x8F6C;&#xFF0C;&#x4E0A;&#x8FF0;&#x8FED;&#x4EE3;&#x7247;&#x6BB5;&#x5C06;&#x7ED9;&#x51FA;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x7684;&#x7ED3;&#x679C;&#xFF08;&#x5C3D;&#x7BA1;&#x5B83;&#x7684;&#x53EF;&#x8BFB;&#x6027;&#x7A0D;&#x5DEE;&#xFF09;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">th:text</span>=<span class="hljs-string">&quot;${item.description}&quot;</span> <span class="hljs-attr">th:each</span>=<span class="hljs-string">&quot;item : ${items}&quot;</span>&gt;</span>Item description here...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="local-variables.html" class="navigation navigation-prev " aria-label="Previous page: 局部变量">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="comments-and-blocks.html" class="navigation navigation-next " aria-label="Next page: 注释及注释块">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"属性优先级","level":"1.10","depth":1,"next":{"title":"注释及注释块","level":"1.11","depth":1,"path":"docs/comments-and-blocks.md","ref":"docs/comments-and-blocks.md","articles":[]},"previous":{"title":"局部变量","level":"1.9","depth":1,"path":"docs/local-variables.md","ref":"docs/local-variables.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/attribute-precedence.md","mtime":"2020-07-11T07:36:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-11T07:40:38.345Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

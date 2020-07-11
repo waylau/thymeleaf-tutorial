@@ -1,0 +1,501 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Thymeleaf 简介 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="using-texts.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    Thymeleaf 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="using-texts.html">
+            
+                <a href="using-texts.html">
+            
+                    
+                    使用文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-expression-syntax.html">
+            
+                <a href="standard-expression-syntax.html">
+            
+                    
+                    标准表达式语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="setting-attribute-values.html">
+            
+                <a href="setting-attribute-values.html">
+            
+                    
+                    设置属性值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="iteration.html">
+            
+                <a href="iteration.html">
+            
+                    
+                    迭代器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="conditional-evaluation.html">
+            
+                <a href="conditional-evaluation.html">
+            
+                    
+                    条件语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="template-layout.html">
+            
+                <a href="template-layout.html">
+            
+                    
+                    模板布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="local-variables.html">
+            
+                <a href="local-variables.html">
+            
+                    
+                    局部变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="attribute-precedence.html">
+            
+                <a href="attribute-precedence.html">
+            
+                    
+                    属性优先级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="comments-and-blocks.html">
+            
+                <a href="comments-and-blocks.html">
+            
+                    
+                    注释及注释块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="inlining.html">
+            
+                <a href="inlining.html">
+            
+                    
+                    内联
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="textual-template-modes.html">
+            
+                <a href="textual-template-modes.html">
+            
+                    
+                    文本模板模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="more-on-configuration.html">
+            
+                <a href="more-on-configuration.html">
+            
+                    
+                    更多配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="emplate-cache.html">
+            
+                <a href="emplate-cache.html">
+            
+                    
+                    模板缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="expression-basic-objects.html">
+            
+                <a href="expression-basic-objects.html">
+            
+                    
+                    表达式基本对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="expression-utility-objects.html">
+            
+                <a href="expression-utility-objects.html">
+            
+                    
+                    表达式工具对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="markup-selector-syntax.html">
+            
+                <a href="markup-selector-syntax.html">
+            
+                    
+                    标记选择器语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="references.html">
+            
+                <a href="references.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Thymeleaf 简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="thymeleaf-&#x7B80;&#x4ECB;">Thymeleaf &#x7B80;&#x4ECB;</h1>
+<h2 id="&#x4EC0;&#x4E48;&#x662F;-thymeleaf">&#x4EC0;&#x4E48;&#x662F; Thymeleaf</h2>
+<p>Thymeleaf &#x662F;&#x9762;&#x5411; Web &#x548C;&#x72EC;&#x7ACB;&#x73AF;&#x5883;&#x7684;&#x73B0;&#x4EE3;&#x670D;&#x52A1;&#x5668;&#x7AEF; Java &#x6A21;&#x677F;&#x5F15;&#x64CE;&#xFF0C;&#x80FD;&#x591F;&#x5904;&#x7406; HTML&#x3001;XML&#x3001;JavaScript&#x3001;CSS &#x751A;&#x81F3;&#x7EAF;&#x6587;&#x672C;&#x3002;</p>
+<p>Thymeleaf &#x7684;&#x4E3B;&#x8981;&#x76EE;&#x6807;&#x662F;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x4F18;&#x96C5;&#x548C;&#x9AD8;&#x5EA6;&#x53EF;&#x7EF4;&#x62A4;&#x7684;&#x521B;&#x5EFA;&#x6A21;&#x677F;&#x7684;&#x65B9;&#x5F0F;&#x3002; &#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x8FD9;&#x4E00;&#x70B9;&#xFF0C;&#x5B83;&#x5EFA;&#x7ACB;&#x5728;&#x81EA;&#x7136;&#x6A21;&#x677F;&#xFF08; Natural Templates&#xFF09;&#x7684;&#x6982;&#x5FF5;&#x4E0A;&#xFF0C;&#x5C06;&#x5176;&#x903B;&#x8F91;&#x6CE8;&#x5165;&#x5230;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x6A21;&#x677F;&#x88AB;&#x7528;&#x4F5C;&#x8BBE;&#x8BA1;&#x539F;&#x578B;&#x3002; &#x8FD9;&#x6539;&#x5584;&#x4E86;&#x8BBE;&#x8BA1;&#x7684;&#x6C9F;&#x901A;&#xFF0C;&#x5F25;&#x5408;&#x4E86;&#x8BBE;&#x8BA1;&#x548C;&#x5F00;&#x53D1;&#x56E2;&#x961F;&#x4E4B;&#x95F4;&#x7684;&#x5DEE;&#x8DDD;&#x3002;</p>
+<p>Thymeleaf &#x7684;&#x8BBE;&#x8BA1;&#x4ECE;&#x4E00;&#x5F00;&#x59CB;&#x5C31;&#x9075;&#x4ECE; Web &#x6807;&#x51C6;&#xFF0C;&#x7279;&#x522B;&#x662F; HTML5&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x80FD;&#x521B;&#x5EFA;&#x5B8C;&#x5168;&#x7B26;&#x5408;&#x9A8C;&#x8BC1;&#x7684;&#x6A21;&#x677F;&#x3002;</p>
+<h2 id="&#x5904;&#x7406;&#x6A21;&#x7248;">&#x5904;&#x7406;&#x6A21;&#x7248;</h2>
+<p>Thymeleaf &#x80FD;&#x5904;&#x7406;&#x4EE5;&#x4E0B; 6 &#x79CD;&#x7C7B;&#x578B;&#x7684;&#x6A21;&#x7248;&#xFF0C;&#x6211;&#x4EEC;&#x79F0;&#x4E4B;&#x4E3A;<strong>&#x6A21;&#x7248;&#x6A21;&#x5F0F;&#xFF08;Template Mode&#xFF09;</strong>:</p>
+<ul>
+<li>HTML</li>
+<li>XML</li>
+<li>TEXT</li>
+<li>JAVASCRIPT</li>
+<li>CSS</li>
+<li><p>RAW</p>
+<p>&#x5176;&#x4E2D;&#x5305;&#x542B;&#x6709;&#x4E24;&#x79CD;&#x6807;&#x8BB0;&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#xFF08;HTML&#x548C;XML&#xFF09;&#xFF0C;&#x4E09;&#x79CD;&#x6587;&#x672C;&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#xFF08;TEXT&#x3001;JAVASCRIPT&#x548C;CSS&#xFF09;&#x548C;&#x4E00;&#x4E2A;&#x65E0;&#x64CD;&#x4F5C;&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#xFF08;RAW&#xFF09;&#x3002;</p>
+</li>
+</ul>
+<p>HTML &#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x5C06;&#x5141;&#x8BB8;&#x4EFB;&#x4F55;&#x7C7B;&#x578B;&#x7684; HTML&#x8F93;&#x5165;&#xFF0C;&#x5305;&#x62EC;HTML5&#x3001;HTML4&#x548C;XHTML&#x3002;&#x5C06;&#x4E0D;&#x6267;&#x884C;&#x9A8C;&#x8BC1;&#x6216;&#x5BF9;&#x683C;&#x5F0F;&#x8FDB;&#x884C;&#x4E25;&#x683C;&#x68C0;&#x67E5;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x80FD;&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x5C06;&#x6A21;&#x677F;&#x4EE3;&#x7801;/&#x7ED3;&#x6784;&#x8FDB;&#x884C;&#x8F93;&#x51FA;&#x3002;</p>
+<p>XML&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x5C06;&#x5141;&#x8BB8;XML&#x8F93;&#x5165;&#x3002;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4EE3;&#x7801;&#x9884;&#x671F;&#x683C;&#x5F0F;&#x662F;&#x826F;&#x597D;&#x7684;&#x2014;&#x2014;&#x6CA1;&#x6709;&#x672A;&#x5173;&#x95ED;&#x7684;&#x6807;&#x7B7E;&#xFF0C;&#x6CA1;&#x6709;&#x5F15;&#x7528;&#x5C5E;&#x6027;&#x7B49;&#xFF0C;&#x5982;&#x679C;&#x627E;&#x5230;&#x4E3A;&#x7B26;&#x5408;&#x683C;&#x5F0F;&#x8981;&#x6C42;&#xFF0C;&#x89E3;&#x6790;&#x5668;&#x5C06;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#x3002;&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x4E0D;&#x4F1A;&#x6267;&#x884C;&#x9A8C;&#x8BC1;&#xFF08;&#x9488;&#x5BF9;DTD&#x6216;XML&#x67B6;&#x6784;&#xFF09;&#x3002;</p>
+<p>TEXT&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x5C06;&#x5141;&#x8BB8;&#x5BF9;&#x975E;&#x6807;&#x8BB0;&#x6027;&#x8D28;&#x7684;&#x6A21;&#x677F;&#x4F7F;&#x7528;&#x7279;&#x6B8A;&#x8BED;&#x6CD5;&#x3002;&#x6B64;&#x7C7B;&#x6A21;&#x677F;&#x7684;&#x793A;&#x4F8B;&#x53EF;&#x80FD;&#x662F;&#x6587;&#x672C;&#x7535;&#x5B50;&#x90AE;&#x4EF6;&#x6216;&#x6A21;&#x677F;&#x6587;&#x6863;&#x3002;&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;HTML&#x6216;XML&#x6A21;&#x677F;&#x4E5F;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;TEXT&#x5904;&#x7406;&#xFF0C;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5B83;&#x4EEC;&#x5C06;&#x4E0D;&#x4F1A;&#x88AB;&#x89E3;&#x6790;&#x4E3A;&#x6807;&#x8BB0;&#xFF0C;&#x5E76;&#x4E14;&#x6BCF;&#x4E2A;&#x6807;&#x7B7E;DOCTYPE&#x3001;&#x6CE8;&#x91CA;&#x7B49;&#x5C06;&#x88AB;&#x89C6;&#x4E3A;&#x7EAF;&#x6587;&#x672C;&#x3002;</p>
+<p>JAVASCRIPT&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x5C06;&#x5141;&#x8BB8;&#x5728;Thymeleaf&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E2D;&#x5904;&#x7406;JavaScript&#x6587;&#x4EF6;&#x3002;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x80FD;&#x591F;&#x4F7F;&#x7528;JavaScript&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x6A21;&#x578B;&#x6570;&#x636E;&#x4E0E;HTML&#x6587;&#x4EF6;&#x4E2D;&#x53EF;&#x4EE5;&#x5B8C;&#x6210;&#x7684;&#x65B9;&#x5F0F;&#x76F8;&#x540C;&#xFF0C;&#x4F46;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7279;&#x5B9A;&#x4E8E;JavaScript&#x7684;&#x96C6;&#x6210;&#xFF0C;&#x4F8B;&#x5982;&#x4E13;&#x95E8;&#x7684;&#x8F6C;&#x4E49;&#x6216;&#x81EA;&#x7136;&#x811A;&#x672C;&#xFF08;natural scripting&#xFF09;&#x3002; JAVASCRIPT&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;&#x6587;&#x672C;&#x6A21;&#x5F0F;&#xFF0C;&#x56E0;&#x6B64;&#x4F7F;&#x7528;&#x4E0E;TEXT&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x76F8;&#x540C;&#x7684;&#x7279;&#x6B8A;&#x8BED;&#x6CD5;&#x3002;</p>
+<p>CSS&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x5C06;&#x5141;&#x8BB8;&#x5904;&#x7406;&#x6D89;&#x53CA;Thymeleaf&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;CSS&#x6587;&#x4EF6;&#x3002;&#x4E0E;JAVASCRIPT&#x6A21;&#x5F0F;&#x7C7B;&#x4F3C;&#xFF0C;CSS&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x4E5F;&#x662F;&#x6587;&#x672C;&#x6A21;&#x5F0F;&#xFF0C;&#x5E76;&#x4F7F;&#x7528;TEXT&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x4E0B;&#x7684;&#x7279;&#x6B8A;&#x5904;&#x7406;&#x8BED;&#x6CD5;&#x3002;</p>
+<p>RAW&#x6A21;&#x677F;&#x6A21;&#x5F0F;&#x6839;&#x672C;&#x4E0D;&#x4F1A;&#x5904;&#x7406;&#x6A21;&#x677F;&#x3002;&#x5B83;&#x7528;&#x4E8E;&#x5C06;&#x672A;&#x7ECF;&#x4FEE;&#x6539;&#x7684;&#x8D44;&#x6E90;&#xFF08;&#x6587;&#x4EF6;&#x3001;URL&#x54CD;&#x5E94;&#x7B49;&#xFF09;&#x63D2;&#x5165;&#x6B63;&#x5728;&#x5904;&#x7406;&#x7684;&#x6A21;&#x677F;&#x4E2D;&#x3002;&#x4F8B;&#x5982;&#xFF0C;HTML&#x683C;&#x5F0F;&#x7684;&#x5916;&#x90E8;&#x4E0D;&#x53D7;&#x63A7;&#x5236;&#x7684;&#x8D44;&#x6E90;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x5728;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x6A21;&#x677F;&#x4E2D;&#xFF0C;&#x5B89;&#x5168;&#x5730;&#x77E5;&#x9053;&#x8FD9;&#x4E9B;&#x8D44;&#x6E90;&#x53EF;&#x80FD;&#x5305;&#x542B;&#x7684;&#x4EFB;&#x4F55;Thymeleaf&#x4EE3;&#x7801;&#x5C06;&#x4E0D;&#x4F1A;&#x88AB;&#x6267;&#x884C;&#x3002;</p>
+<h2 id="&#x6807;&#x51C6;&#x65B9;&#x8A00;">&#x6807;&#x51C6;&#x65B9;&#x8A00;</h2>
+<p>Thymeleaf&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x53EF;&#x6269;&#x5C55;&#x7684;&#x6A21;&#x677F;&#x5F15;&#x64CE;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x5B83;&#x66F4;&#x50CF;&#x662F;&#x4E00;&#x4E2A;&#x6A21;&#x677F;&#x5F15;&#x64CE;&#x6846;&#x67B6;&#xFF08;template engine framework&#xFF09;&#xFF09;&#xFF0C;&#x5141;&#x8BB8;&#x60A8;&#x5B9A;&#x4E49;&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x60A8;&#x7684;&#x6A21;&#x677F;&#x3002;</p>
+<p>&#x5C06;&#x4E00;&#x4E9B;&#x903B;&#x8F91;&#x5E94;&#x7528;&#x4E8E;&#x6807;&#x8BB0;&#x5DE5;&#x4EF6;&#xFF08;&#x4F8B;&#x5982;&#x6807;&#x7B7E;&#x3001;&#x67D0;&#x4E9B;&#x6587;&#x672C;&#x3001;&#x6CE8;&#x91CA;&#x6216;&#x53EA;&#x6709;&#x5360;&#x4F4D;&#x7B26;&#xFF09;&#x7684;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x88AB;&#x79F0;&#x4E3A;&#x5904;&#x7406;&#x5668;&#xFF08;processor&#xFF09;&#x3002;&#x65B9;&#x8A00;&#xFF08;dialect&#xFF09;&#x901A;&#x5E38;&#x5305;&#x62EC;&#x8FD9;&#x4E9B;&#x5904;&#x7406;&#x5668;&#x7684;&#x96C6;&#x5408;&#x4EE5;&#x53CA;&#x4E00;&#x4E9B;&#x989D;&#x5916;&#x7684;&#x5DE5;&#x4EF6;&#x3002;Thymeleaf &#x7684;&#x6838;&#x5FC3;&#x5E93;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x79CD;&#x79F0;&#x4E3A;&#x6807;&#x51C6;&#x65B9;&#x8A00;&#xFF08;Standard Dialect&#xFF09;&#x7684;&#x65B9;&#x8A00;&#xFF0C;&#x63D0;&#x4F9B;&#x7ED9;&#x7528;&#x6237;&#x5F00;&#x7BB1;&#x5373;&#x7528;&#x7684;&#x529F;&#x80FD;&#x3002;</p>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x5982;&#x679C;&#x7528;&#x6237;&#x5E0C;&#x671B;&#x5728;&#x5229;&#x7528;&#x5E93;&#x7684;&#x9AD8;&#x7EA7;&#x529F;&#x80FD;&#x7684;&#x540C;&#x65F6;&#x5B9A;&#x4E49;&#x81EA;&#x5DF1;&#x7684;&#x5904;&#x7406;&#x903B;&#x8F91;&#xFF0C;&#x7528;&#x6237;&#x4E5F;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;&#x65B9;&#x8A00;&#xFF08;&#x751A;&#x81F3;&#x6269;&#x5C55;&#x6807;&#x51C6;&#x7684;&#x65B9;&#x8A00;&#xFF09;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x5C06;Thymeleaf&#x914D;&#x7F6E;&#x4E3A;&#x540C;&#x65F6;&#x4F7F;&#x7528;&#x51E0;&#x79CD;&#x65B9;&#x8A00;&#x3002;</p>
+<blockquote>
+<p>&#x5B98;&#x65B9;&#x7684; thymeleaf-spring3 &#x548C; thymeleaf-spring4 &#x96C6;&#x6210;&#x5305;&#x90FD;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x79CD;&#x79F0;&#x4E3A;&#x201C;SpringStandard Dialect&#x201D;&#x7684;&#x65B9;&#x8A00;&#xFF0C;&#x4E0E;&#x6807;&#x51C6;&#x65B9;&#x8A00;&#x5927;&#x81F4;&#x76F8;&#x540C;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x4E8E; Spring &#x6846;&#x67B6;&#x4E2D;&#x7684;&#x67D0;&#x4E9B;&#x529F;&#x80FD;&#x5219;&#x66F4;&#x52A0;&#x53CB;&#x597D;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C; &#x60F3;&#x901A;&#x8FC7;&#x4F7F;&#x7528;Spring Expression Language &#x6216; SpringEL &#x800C;&#x4E0D;&#x662F; OGNL&#x3002;&#x6240;&#x4EE5;&#x5982;&#x679C;&#x4F60;&#x662F;&#x4E00;&#x4E2A;Spring MVC&#x7528;&#x6237;&#xFF0C;&#x8FD9;&#x91CC;&#x7684;&#x6240;&#x6709;&#x4E1C;&#x897F;&#x90FD;&#x80FD;&#x591F;&#x5728;&#x4F60;&#x7684;Spring&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E2D;&#x4F7F;&#x7528;&#x3002;</p>
+</blockquote>
+<p>&#x6807;&#x51C6;&#x65B9;&#x8A00;&#x7684;&#x5927;&#x591A;&#x6570;&#x5904;&#x7406;&#x5668;&#x662F;&#x5C5E;&#x6027;&#x5904;&#x7406;&#x5668;&#x3002;&#x8FD9;&#x6837;&#xFF0C;&#x5373;&#x4F7F;&#x5728;&#x5904;&#x7406;&#x4E4B;&#x524D;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x4E5F;&#x53EF;&#x4EE5;&#x6B63;&#x786E;&#x5730;&#x663E;&#x793A;HTML&#x6A21;&#x677F;&#x6587;&#x4EF6;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x5C06;&#x7B80;&#x5355;&#x5730;&#x5FFD;&#x7565;&#x5176;&#x4ED6;&#x5C5E;&#x6027;&#x3002;&#x5BF9;&#x6BD4;JSP&#xFF0C;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x4F1A;&#x76F4;&#x63A5;&#x663E;&#x793A;&#x7684;&#x4EE3;&#x7801;&#x7247;&#x65AD;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form:inputText</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;userName&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;${user.name}&quot;</span> /&gt;</span>
+</code></pre>
+<p>Thymeleaf &#x6807;&#x51C6;&#x65B9;&#x8A00;&#x5C06;&#x5141;&#x8BB8;&#x6211;&#x4EEC;&#x5B9E;&#x73B0;&#x4E0E;&#x4EE5;&#x4E0B;&#x529F;&#x80FD;&#x76F8;&#x540C;&#x7684;&#x529F;&#x80FD;&#xFF1A;:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;userName&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;James Carrot&quot;</span> <span class="hljs-attr">th:value</span>=<span class="hljs-string">&quot;${user.name}&quot;</span> /&gt;</span>
+</code></pre>
+<p>&#x6D4F;&#x89C8;&#x5668;&#x4E0D;&#x4EC5;&#x53EF;&#x4EE5;&#x6B63;&#x786E;&#x663E;&#x793A;&#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#xFF0C;&#x800C;&#x4E14;&#x8FD8;&#x53EF;&#x4EE5;&#xFF08;&#x53EF;&#x9009;&#x5730;&#xFF09;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x9759;&#x6001;&#x6253;&#x5F00;&#x539F;&#x578B;&#x65F6;&#x663E;&#x793A;&#x7684;&#x503C;&#xFF08;&#x53EF;&#x9009;&#x5730;&#xFF09;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x503C;&#x5C5E;&#x6027;&#xFF08;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#x4E3A;&#x201C;James Carrot&#x201D;&#xFF09;&#xFF0C;&#x5C06;&#x5728;&#x6A21;&#x677F;&#x5904;&#x7406;&#x671F;&#x95F4;&#x7531;<code>${user.name}</code>&#x7684;&#x8BC4;&#x4F30;&#x5F97;&#x5230;&#x7684;&#x503C;&#x4EE3;&#x66FF;&#x3002;</p>
+<p>&#x8FD9;&#x6709;&#x52A9;&#x4E8E;&#x60A8;&#x7684;&#x8BBE;&#x8BA1;&#x5E08;&#x548C;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x5904;&#x7406;&#x76F8;&#x540C;&#x7684;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x51CF;&#x5C11;&#x5C06;&#x9759;&#x6001;&#x539F;&#x578B;&#x8F6C;&#x6362;&#x4E3A;&#x5DE5;&#x4F5C;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#x6240;&#x9700;&#x7684;&#x5DE5;&#x4F5C;&#x91CF;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x529F;&#x80FD;&#x662F;&#x79F0;&#x4E3A; <em>&#x81EA;&#x7136;&#x6A21;&#x677F;(Natural Templating)</em>&#x7684;&#x529F;&#x80FD;.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="using-texts.html" class="navigation navigation-next " aria-label="Next page: 使用文本">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Thymeleaf 简介","level":"1.2","depth":1,"next":{"title":"使用文本","level":"1.3","depth":1,"path":"docs/using-texts.md","ref":"docs/using-texts.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/introduction.md","mtime":"2020-07-11T07:36:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-11T07:40:38.345Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

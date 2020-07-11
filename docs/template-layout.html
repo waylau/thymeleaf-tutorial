@@ -1,0 +1,568 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>模板布局 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="local-variables.html" />
+    
+    
+    <link rel="prev" href="conditional-evaluation.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    Thymeleaf 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="using-texts.html">
+            
+                <a href="using-texts.html">
+            
+                    
+                    使用文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-expression-syntax.html">
+            
+                <a href="standard-expression-syntax.html">
+            
+                    
+                    标准表达式语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="setting-attribute-values.html">
+            
+                <a href="setting-attribute-values.html">
+            
+                    
+                    设置属性值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="iteration.html">
+            
+                <a href="iteration.html">
+            
+                    
+                    迭代器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="conditional-evaluation.html">
+            
+                <a href="conditional-evaluation.html">
+            
+                    
+                    条件语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="template-layout.html">
+            
+                <a href="template-layout.html">
+            
+                    
+                    模板布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="local-variables.html">
+            
+                <a href="local-variables.html">
+            
+                    
+                    局部变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="attribute-precedence.html">
+            
+                <a href="attribute-precedence.html">
+            
+                    
+                    属性优先级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="comments-and-blocks.html">
+            
+                <a href="comments-and-blocks.html">
+            
+                    
+                    注释及注释块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="inlining.html">
+            
+                <a href="inlining.html">
+            
+                    
+                    内联
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="textual-template-modes.html">
+            
+                <a href="textual-template-modes.html">
+            
+                    
+                    文本模板模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="more-on-configuration.html">
+            
+                <a href="more-on-configuration.html">
+            
+                    
+                    更多配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="emplate-cache.html">
+            
+                <a href="emplate-cache.html">
+            
+                    
+                    模板缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="expression-basic-objects.html">
+            
+                <a href="expression-basic-objects.html">
+            
+                    
+                    表达式基本对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="expression-utility-objects.html">
+            
+                <a href="expression-utility-objects.html">
+            
+                    
+                    表达式工具对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="markup-selector-syntax.html">
+            
+                <a href="markup-selector-syntax.html">
+            
+                    
+                    标记选择器语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="references.html">
+            
+                <a href="references.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >模板布局</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6A21;&#x677F;&#x5E03;&#x5C40;">&#x6A21;&#x677F;&#x5E03;&#x5C40;</h1>
+<h2 id="&#x5305;&#x542B;&#x6A21;&#x677F;&#x7247;&#x6BB5;">&#x5305;&#x542B;&#x6A21;&#x677F;&#x7247;&#x6BB5;</h2>
+<h3 id="&#x5B9A;&#x4E49;&#x548C;&#x5F15;&#x7528;&#x7247;&#x6BB5;">&#x5B9A;&#x4E49;&#x548C;&#x5F15;&#x7528;&#x7247;&#x6BB5;</h3>
+<p>&#x5728;&#x6211;&#x4EEC;&#x7684;&#x6A21;&#x677F;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x7ECF;&#x5E38;&#x9700;&#x8981;&#x4ECE;&#x5176;&#x4ED6;&#x6A21;&#x677F;&#x4E2D;&#x6DFB;&#x52A0;html&#x9875;&#x9762;&#x7247;&#x6BB5;&#xFF0C;&#x5982;&#x9875;&#x811A;&#x3001;&#x6807;&#x9898;&#x3001;&#x83DC;&#x5355;...</p>
+<p>&#x4E3A;&#x4E86;&#x505A;&#x5230;&#x8FD9;&#x4E00;&#x70B9;&#xFF0C;Thymeleaf &#x9700;&#x8981;&#x6211;&#x4EEC;&#x6765;&#x5B9A;&#x4E49;&#x8FD9;&#x4E9B;&#x201C;&#x7247;&#x6BB5;&#x201D;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>th&#xFF1A;fragment</code>&#x5C5E;&#x6027;&#x6765;&#x5B8C;&#x6210;&#x3002;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x4E86;<code>/WEB-INF/templates/footer.html</code>&#x9875;&#x9762; </p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">xmlns:th</span>=<span class="hljs-string">&quot;http://www.thymeleaf.org&quot;</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:fragment</span>=<span class="hljs-string">&quot;copy&quot;</span>&gt;</span>
+      &amp;copy; 2017 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://waylau.com&quot;</span>&gt;</span>waylau.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>&#x5982;&#x679C;&#xFF0C;&#x6211;&#x4EEC;&#x60F3;&#x5F15;&#x7528;&#x8FD9;&#x4E2A; <code>copy</code> &#x4EE3;&#x7801;&#x7247;&#x6BB5;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7528; <code>th:insert</code> &#x6216; <code>th:replace</code> &#x5C5E;&#x6027; (<code>th:include</code> &#x4E5F;&#x662F;&#x53EF;&#x4EE5;&#xFF0C;&#x4F46;&#x81EA; Thymeleaf 3.0 &#x4EE5;&#x6765;&#x5C31;&#x4E0D;&#x518D;&#x63A8;&#x8350;):</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+
+  ...
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:insert</span>=<span class="hljs-string">&quot;~{footer :: copy}&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<p>&#x6CE8;&#x610F;<code>th&#xFF1A;insert</code>&#x9700;&#x8981;&#x4E00;&#x4E2A;<em>&#x7247;&#x6BB5;&#x8868;&#x8FBE;&#x5F0F;</em>&#xFF08;<code>&#x301C;{...}</code>&#xFF09;&#x3002; &#x5728;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x4E2D;&#xFF0C;&#x975E;&#x590D;&#x6742;<em>&#x7247;&#x6BB5;&#x8868;&#x8FBE;&#x5F0F;</em>&#xFF0C;&#xFF08;<code>&#x301C;{</code>&#xFF0C;<code>}</code>&#xFF09;&#x5305;&#x56F4;&#x662F;&#x5B8C;&#x5168;&#x53EF;&#x9009;&#xFF0C;&#x6240;&#x4EE5;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x5C06;&#x7B49;&#x6548;&#x4E8E;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+
+  ...
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:insert</span>=<span class="hljs-string">&quot;footer :: copy&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3 id="&#x7247;&#x6BB5;&#x89C4;&#x8303;&#x8BED;&#x6CD5;">&#x7247;&#x6BB5;&#x89C4;&#x8303;&#x8BED;&#x6CD5;</h3>
+<ul>
+<li><code>&quot;~{templatename::selector}&quot;</code> &#x540D;&#x4E3A;<code>templatename</code>&#x7684;&#x6A21;&#x677F;&#x4E0A;&#x7684;&#x6307;&#x5B9A;&#x6807;&#x8BB0;&#x9009;&#x62E9;&#x5668;&#x3002; <code>selector</code>&#x53EF;&#x4EE5;&#x53EA;&#x662F;&#x4E00;&#x4E2A;&#x7247;&#x6BB5;&#x540D;&#x3002;</li>
+<li><code>&quot;~{templatename}&quot;</code> &#xFF1A; &#x5305;&#x542B;&#x5B8C;&#x6574;&#x7684;&#x6A21;&#x7248; <code>templatename</code></li>
+<li><code>~{::selector}&quot;</code> or <code>&quot;~{this::selector}&quot;</code> &#x76F8;&#x540C;&#x6A21;&#x7248;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x7247;&#x6BB5;</li>
+</ul>
+<h3 id="&#x4E0D;&#x4F7F;&#x7528;-thfragment">&#x4E0D;&#x4F7F;&#x7528; <code>th:fragment</code></h3>
+<p> &#x4E0D;&#x4F7F;&#x7528; <code>th:fragment</code>&#x4E5F;&#x53EF;&#x4EE5;&#x5F15;&#x7528;HTML&#x7247;&#x6BB5;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-html">...
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;copy-section&quot;</span>&gt;</span>
+  &amp;copy; 2017 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://waylau.com&quot;</span>&gt;</span>waylau.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+...
+</code></pre>
+<p>&#x901A;&#x8FC7; id &#x4E5F;&#x53EF;&#x4EE5;&#x5F15;&#x7528;&#x5230;&#x9875;&#x9762;&#x7247;&#x6BB5;:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+
+  ...
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:insert</span>=<span class="hljs-string">&quot;~{footer :: #copy-section}&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3 id="thinsert&#x3001;-threplace-&#x3001;thinclude&#x4E09;&#x8005;&#x533A;&#x522B;"><code>th:insert</code>&#x3001; <code>th:replace</code> &#x3001;<code>th:include</code>&#x4E09;&#x8005;&#x533A;&#x522B;</h3>
+<ul>
+<li><code>th&#xFF1A;insert</code>&#x662F;&#x6700;&#x7B80;&#x5355;&#x7684;&#xFF1A;&#x5B83;&#x5C06;&#x7B80;&#x5355;&#x5730;&#x63D2;&#x5165;&#x6307;&#x5B9A;&#x7684;&#x7247;&#x6BB5;&#x4F5C;&#x4E3A;&#x6B63;&#x6587; &#x7684;&#x4E3B;&#x6807;&#x7B7E;&#x3002;</li>
+<li><code>th&#xFF1A;replace</code>&#x7528;&#x6307;&#x5B9A;&#x5B9E;&#x9645;&#x7247;&#x6BB5;&#x6765;&#x66FF;&#x6362;&#x5176;&#x4E3B;&#x6807;&#x7B7E;&#x3002;</li>
+<li><code>th&#xFF1A;include</code>&#x7C7B;&#x4F3C;&#x4E8E;<code>th&#xFF1A;insert</code>&#xFF0C;&#x4F46;&#x4E0D;&#x662F;&#x63D2;&#x5165;&#x7247;&#x6BB5;&#x5B83;&#x53EA;&#x63D2;&#x5165;&#x6B64;&#x7247;&#x6BB5;&#x7684;<em>&#x5185;&#x5BB9;</em>&#x3002;</li>
+</ul>
+<p>&#x6240;&#x4EE5;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">th:fragment</span>=<span class="hljs-string">&quot;copy&quot;</span>&gt;</span>
+  &amp;copy; 2017 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://waylau.com&quot;</span>&gt;</span>waylau.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+</code></pre>
+<p>&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5F15;&#x7528;&#x8BE5;&#x7247;&#x6BB5;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+
+  ...
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:insert</span>=<span class="hljs-string">&quot;footer :: copy&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:replace</span>=<span class="hljs-string">&quot;footer :: copy&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">th:include</span>=<span class="hljs-string">&quot;footer :: copy&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<p>&#x7ED3;&#x679C;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+
+  ...
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+      &amp;copy; 2017 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://waylau.com&quot;</span>&gt;</span>waylau.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+    &amp;copy; 2017 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://waylau.com&quot;</span>&gt;</span>waylau.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+    &amp;copy; 2017 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://waylau.com&quot;</span>&gt;</span>waylau.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="conditional-evaluation.html" class="navigation navigation-prev " aria-label="Previous page: 条件语句">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="local-variables.html" class="navigation navigation-next " aria-label="Next page: 局部变量">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"模板布局","level":"1.8","depth":1,"next":{"title":"局部变量","level":"1.9","depth":1,"path":"docs/local-variables.md","ref":"docs/local-variables.md","articles":[]},"previous":{"title":"条件语句","level":"1.7","depth":1,"path":"docs/conditional-evaluation.md","ref":"docs/conditional-evaluation.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/template-layout.md","mtime":"2020-07-11T07:36:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-11T07:40:38.345Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
